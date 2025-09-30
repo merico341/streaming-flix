@@ -1,10 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Open+Sans:wght@600&display=swap');
 
-body {
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* nav */
+
+body, html {
     margin: 0;
     padding: 0;
     background-color: #101010;
     font-family: "Funnel Sans", sans-serif;
+    height: 100%;
 }
 
 nav {
@@ -60,4 +68,45 @@ nav ul li a {
     font-size: 1rem;
     border: none;
     outline: none;
+}
+
+/* melhores filmes */
+
+header {
+    background-image: linear-gradient(
+        to left,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.9),
+        rgba(0, 0, 0, 1)),
+        url('../imgs/backgroundFilm.png');
+    background-size: cover;
+    height: 60vh;
+    background-repeat: no-repeat;
+} 
+
+#description {
+    padding-top: 100px;
+    padding-left: 15px;
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: auto auto 1fr;
+    grid-template-rows: auto auto auto;
+    text-align: justify;
+    color: #fff;
+    gap: 15px;
+    height: 30vh;
+    width: 40vw;
+    text-overflow: clip;
+}
+
+#titulo {
+    grid-column: 1/4;
+    grid-row: 1;
+    font-size: 2.5rem;
+}
+
+#legenda {
+    grid-column: 1/4;
+    grid-row: 3;
 }
