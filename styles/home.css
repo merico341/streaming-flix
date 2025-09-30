@@ -88,6 +88,9 @@ header {
     height: 55vh;
     background-repeat: no-repeat;
     overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15.625rem;
 } 
 
 #description {
@@ -103,6 +106,14 @@ header {
     height: 30vh;
     width: 40vw;
     text-overflow: clip;
+}
+
+#trailer {
+    display: none;
+    padding-top: 50px;
+    padding-left: 15px;
+    height: 18.75rem;
+    width: 31.25rem;
 }
 
 #titulo {
@@ -144,7 +155,7 @@ main {
 .filme::before {
     content: attr(numero);
     position: absolute;
-    font-size: 300px;
+    font-size: 18.75rem;
     left: -6.5rem;
 }
 
