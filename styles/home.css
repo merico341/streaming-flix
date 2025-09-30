@@ -48,12 +48,16 @@ nav ul li a {
 }
 
 #logo {
-    width: 4rem;
-    transition: transform 350ms ease;
-    margin-left: 10px;
+    max-width: 4rem;
+    margin-left: 10px;  
+    padding: 8px;
 }
-    
-#logo:hover {
+
+#logo img {
+    max-width: 4rem;
+}
+#logo img:hover {
+    transition: transform 350ms ease;
     transform: scale(1.1);
 }
 
@@ -89,12 +93,12 @@ header {
     padding-top: 100px;
     padding-left: 15px;
     display: grid;
-    column-gap: 10px;
     grid-template-columns: auto auto 1fr;
     grid-template-rows: auto auto auto;
     text-align: justify;
     color: #fff;
     gap: 15px;
+    column-gap: 10px;
     height: 30vh;
     width: 40vw;
     text-overflow: clip;
@@ -109,4 +113,30 @@ header {
 #legenda {
     grid-column: 1/4;
     grid-row: 3;
+}
+
+/* Filmes Recentes */
+
+main {
+    color: #722fc4;
+    margin: 0 1rem;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: .4rem;
+}
+
+.filme {
+    color: #fff;
+    display: grid;
+}
+
+.filme div p{
+    font-size: 1.10rem;
+    font-weight: bold;
+}
+.recentes {
+    max-width: 15rem;
 }
