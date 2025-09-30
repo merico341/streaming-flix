@@ -85,8 +85,9 @@ header {
         rgba(0, 0, 0, 1)),
         url('../imgs/backgroundFilm.png');
     background-size: cover;
-    height: 60vh;
+    height: 55vh;
     background-repeat: no-repeat;
+    overflow: hidden;
 } 
 
 #description {
@@ -125,18 +126,34 @@ main {
 .row {
     display: flex;
     flex-direction: row;
-    gap: .4rem;
+    margin: 0 6rem;
+    justify-content: space-between;
 }
 
 .filme {
+    position: relative;
     color: #fff;
     display: grid;
+}
+
+.filme-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.filme::before {
+    content: attr(numero);
+    position: absolute;
+    font-size: 300px;
+    left: -6.5rem;
 }
 
 .filme div p{
     font-size: 1.10rem;
     font-weight: bold;
+    margin-left: .4rem;
 }
 .recentes {
     max-width: 15rem;
+    z-index: 1;
 }
