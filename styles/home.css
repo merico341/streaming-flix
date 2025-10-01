@@ -162,13 +162,19 @@ main h1 {
 }
 
 .filme {
+    display: grid;
     position: relative;
     color: #fff;
-    display: grid;
+    transition: transform 0.1s ease-in-out;
+}
+
+.filme:hover {
+    transform: scale(1.1);
 }
 
 .filme img {
     border-radius: 8px;
+    max-width: 15rem;
 }
 
 .filme-row{
@@ -189,7 +195,6 @@ main h1 {
     margin-left: .4rem;
 }
 .recentes {
-    max-width: 15rem;
     z-index: 1;
 }
 
