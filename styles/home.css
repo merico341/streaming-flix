@@ -167,6 +167,10 @@ main h1 {
     display: grid;
 }
 
+.filme img {
+    border-radius: 8px;
+}
+
 .filme-row{
     display: flex;
     flex-direction: row;
@@ -193,4 +197,27 @@ main h1 {
     position: absolute;
     width: 100vw;
     background-color: #fff;
+}
+
+/* footer */
+
+footer {
+    height: 20vh;
+    background-color: #070707;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+
+footer div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+footer a {
+    text-decoration: none;
 }
