@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Open+Sans:wght@600&display=swap');
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* nav */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #101010;
+    font-family: "Funnel Sans", sans-serif;
+    height: 100%;
+}
+
+nav {
+    background-color: #070707;  
+    display: flex;
+    justify-content: space-between;
+    height: 3rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    margin-right: 10px;
+    padding: 0;
+    gap: 15px;
+}
+
+nav ul li {
+    align-content: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #722fc4;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border-radius: 50px;
+}   
+
+.link-hover:hover{
+    background: #232323;
+}
+
+#logo {
+    max-width: 4rem;
+    margin-left: 10px;  
+    padding: 8px;
+}
+
+#logo img {
+    max-width: 4rem;
+}
+#logo img:hover {
+    transition: transform 350ms ease;
+    transform: scale(1.1);
+}
+
+#nav-form {
+    padding: 0.3rem;
+    border: #722fc4 solid 2px;
+    border-radius: 5px;
+    background: #fff;
+}
+
+#buscar {
+    font-size: 1rem;
+    border: none;
+    outline: none;
+}
+
+/* Series */
+
+main {
+    margin: 0rem 2rem;
+}
+
+
+main h1 {
+    background-color: #003C64;
+    color: #fff;
+    margin: 1.5rem 3rem;
+    padding: 5px 10px;
+    width: max-content;
+    border-radius: 5px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 0rem 4rem 2rem;
+    gap: 1rem 2rem;
+}
+
+.item {
+    background-color: #272727;
+    border: 1px solid #722fc4;
+    border-radius: 4px;
+    width: max-content;
+}
+
+.item-info {
+    display: grid;
+    grid-template-columns: 50% 30% 20%;
+    grid-template-rows: 1fr;
+    color: #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item-info p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+.poster {
+    border-radius: 8px;
+    max-width: 15rem;
+}
+
+/* footer */
+
+footer {
+    height: 20vh;
+    background-color: #070707;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+
+footer div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+footer a {
+    text-decoration: none;
+}
