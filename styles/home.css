@@ -85,7 +85,7 @@ header {
         rgba(0, 0, 0, 1)),
         url('../imgs/backgroundFilm.png');
     background-size: cover;
-    height: 55vh;
+    height: 60vh;
     background-repeat: no-repeat;
     overflow: hidden;
     display: grid;
@@ -100,7 +100,7 @@ header {
     grid-template-columns: auto auto 1fr;
     grid-template-rows: auto auto auto;
     text-align: justify;
-    color: #fff;
+    color: #ffffff;
     gap: 15px;
     column-gap: 10px;
     height: 30vh;
@@ -108,12 +108,13 @@ header {
     text-overflow: clip;
 }
 
-#trailer {
-    display: none;
-    padding-top: 50px;
-    padding-left: 15px;
-    height: 18.75rem;
-    width: 31.25rem;
+#verTrailer {
+    padding: 10px;
+    background-color: #722fc4;
+    color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+
 }
 
 #titulo {
@@ -127,11 +128,30 @@ header {
     grid-row: 3;
 }
 
+#trailer {
+    display: none;
+    padding-top: 50px;
+    padding-left: 15px;
+    height: 18.75rem;
+    width: 31.25rem;
+}
+
 /* Filmes Recentes */
 
 main {
     color: #722fc4;
+    position: relative;
     margin: 0 1rem;
+}
+
+main h1 {
+    padding: 0.3rem;
+    border-radius: 8px;
+    border: 2px solid   #017A5D;
+    margin: 2rem 4rem;
+    width: max-content;
+    background-color: #003C64;
+    color: #FDD75E;
 }
 
 .row {
@@ -167,4 +187,10 @@ main {
 .recentes {
     max-width: 15rem;
     z-index: 1;
+}
+
+.traco {
+    position: absolute;
+    width: 100vw;
+    background-color: #fff;
 }
