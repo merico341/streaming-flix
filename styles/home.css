@@ -114,7 +114,7 @@ header {
     color: #ffffff;
     border-radius: 5px;
     text-decoration: none;
-
+    margin-left: 1rem;
 }
 
 #titulo {
@@ -194,6 +194,7 @@ main h1 {
     font-weight: bold;
     margin-left: .4rem;
 }
+
 .recentes {
     z-index: 1;
 }
