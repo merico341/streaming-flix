@@ -1,15 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Open+Sans:wght@600&display=swap');
-
-h1, h2, h3, h4, h5, h6, p {
-    margin: 0;
-    padding: 0;
-}
-
-a {
-    text-decoration: none;
-    
-}
-
 /* nav */
 
 body, html {
@@ -84,7 +72,7 @@ nav ul li a {
 /* Series */
 
 main {
-    margin: 0rem 2rem;
+    margin: 4rem 0rem;
 }
 
 

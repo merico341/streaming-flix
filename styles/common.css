@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Open+Sans:wght@600&display=swap');
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #101010;
+    font-family: "Funnel Sans", sans-serif;
+    height: 100%;
+    scroll-behavior: smooth;
+    color: #fff;
+}

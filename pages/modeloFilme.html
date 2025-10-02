@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../imgs/logo.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="../styles/common.css" />
+    <link rel="stylesheet" href="../styles/modeloFilme.css" />
+    <title>Flix - Filme Modelo</title>
+  </head>
+  <body>
+    <!-- Nav bar -->
+    <nav id="nav">
+      <ul>
+        <li>
+          <a href="../pages/home.html" id="logo"
+            ><img src="../imgs/logo.svg" alt=""
+          /></a>
+        </li>
+        <li>
+          <a href="../pages/home.html" class="link-hover"
+            ><i class="fa-solid fa-house"></i>Home</a
+          >
+        </li>
+        <li>
+          <a href="../pages/filmes.html" class="link-hover"
+            ><i class="fa-solid fa-photo-film"></i>Filmes</a
+          >
+        </li>
+        <li>
+          <a href="../pages/series.html" class="link-hover"
+            ><i class="fa-solid fa-tv"></i>Series</a
+          >
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <form action="" id="nav-form">
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <input type="text" placeholder="Procurar..." id="buscar" />
+          </form>
+        </li>
+        <li>
+          <a href="#" class="link-hover"><i class="fa-solid fa-bell"></i></a>
+        </li>
+        <li>
+          <a href="#" class="link-hover"
+            ><i class="fa-solid fa-circle-user"></i>Login</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <div class="content">
+        <img src="../imgs/image-modelo-film.png" alt="" class="poster" />
+        <div>
+          <h1>Kamen rider Agito: Project G4</h1>
+          <div class="info">
+            <p><i class="fa-regular fa-calendar"></i>2001</p>
+            <p><i class="fa-regular fa-clock"></i> 1h 22min</p>
+            <p>
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half"></i>3.4
+            </p>
+          </div>
+          <p class="info-movie">diretor: Ryuta Tasaki</p>
+          <p class="info-movie">Elenco: Toshiki Kashu, Jun Kaname, Yusuke Tomoi</p>
+          <p id="type">Filmes</p>
+          <p id="description">
+            Shouichi encontra uma adolescente chamada Sayaka, que fugiu de uma
+            instalação militar por causa de um ataque dos Lordes Ant. Sayaka tem a
+            capacidade sobrenatural de prever o futuro. Risa Fukami, do grupo GA,
+            quer usar esse poder para melhorar o sistema G4, que foi baseado em
+            desenhos roubados de Ozawa. Agora, Agito e Gills devem lutar para
+            parar os Lords Ant, Emquanto G3 Tem que luta até a Morte contra G4.
+          </p>
+          <div class="actions">
+            <a href="#" class="action-icon" id="warning"><i class="fa-solid fa-triangle-exclamation"></i></a>
+            <a href="#" class="action-icon" id="heart"><i class="fa-regular fa-heart"></i></a>
+            <a href="https://youtu.be/NXwhUiTmRnU?si=HdgVeKT9Zg9NRg9G" id="link">Ver trailer!</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="comentary">
+        <h1><i class="fa-solid fa-comments"></i> Comentários</h1>
+        <div id="canva"></div>
+        <p id="entrar">entre na sua conta para comentar</p>
+        <div class="form">
+          <input wrap="hard" type="text" placeholder="Digite Seu comentario" id="comentario"/>
+          <a href="#canva" id="submit"><i class="fa-solid fa-comment"></i>comentar</a>
+        </div>
+      </div>
+    </main>
+
+    <script src="../js/FadingNavBar.js"></script>
+    <script
+      src="https://kit.fontawesome.com/ef4068945c.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

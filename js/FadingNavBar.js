@@ -1,13 +1,16 @@
 window.onscroll = () => {
-    if (window.scrollY) {
+    if (window.scrollY != 50) {
         console.log(window.scrollY);
         document.getElementById("nav").style.opacity = (370 - window.scrollY)/150;
-
-        document.getElementById("nav").style.display = document.getElementById("nav").style.opacity >= 100 ? "none" : "fixed"
     }
     else {
         document.getElementById("nav").style.opacity = 100;
+    }
 
+    if (document.getElementById("nav").style.opacity <= 0) {
+        document.getElementById("nav").style.display = "none";
+    } else if((370 - window.scrollY)/150 >= 0) {
+        document.getElementById("nav").style.display = "flex";
     }
 }
 
