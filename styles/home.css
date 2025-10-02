@@ -86,8 +86,8 @@ header {
     padding-top: 100px;
     padding-left: 15px;
     display: grid;
-    grid-template-columns: auto auto 1fr;
-    grid-template-rows: auto auto auto;
+    grid-template-columns:  1fr;
+    grid-template-rows: auto auto auto auto;
     text-align: justify;
     color: #ffffff;
     gap: 15px;
@@ -97,12 +97,19 @@ header {
     text-overflow: clip;
 }
 
+.flex {
+    display: flex;
+    gap: 10px;
+}
+
 #verTrailer {
     padding: 10px;
     background-color: #722fc4;
     color: #ffffff;
     border-radius: 5px;
     margin-left: 1rem;
+    grid-row: 4;
+    width: max-content;
 }
 
 #titulo {
@@ -122,6 +129,29 @@ header {
     padding-left: 0.9375rem;
     height: 18.75rem;
     width: 31.25rem;
+}
+
+/* top 3 filmes */
+
+section {
+    margin-top: 2rem;
+}
+
+.row-top {
+    display: flex;
+    flex-direction: row;
+    margin: 0 6rem;
+    justify-content: space-evenly;
+}
+
+section h1 {
+    padding: 0.3rem;
+    border-radius: 8px;
+    border: 2px solid #017A5D;
+    margin: 2rem 4rem;
+    width: max-content;
+    background-color: #003C64;
+    color: #FDD75E;
 }
 
 /* Filmes Recentes */
@@ -154,6 +184,12 @@ main h1 {
     position: relative;
     color: #fff;
     transition: transform 0.1s ease-in-out;
+}
+
+.filme p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
 }
 
 .filme:hover {

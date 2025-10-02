@@ -55,13 +55,15 @@
     <header>
       <div id="description">
         <h1 id="titulo">Kamen rider Agito: Project G4</h1>
-        <p><i class="fa-regular fa-calendar"></i>2002</p>
-        <p><i class="fa-regular fa-clock"></i>88 minutos</p>
-        <p>
-          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
-          ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
-          ><i class="fa-solid fa-star-half"></i>4.6
-        </p>
+        <div class="flex">
+          <p><i class="fa-regular fa-calendar"></i>2002</p>
+          <p><i class="fa-regular fa-clock"></i>88 minutos</p>
+          <p>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+            ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+            ><i class="fa-solid fa-star-half"></i>4.6
+          </p>
+        </div>
         <p id="legenda">
           Shouichi encontra uma adolescente chamada Sayaka, que fugiu de uma
           instalação militar por causa de um ataque dos Lordes Ant. Sayaka tem a
@@ -82,14 +84,49 @@
       ></iframe>
     </header>
 
+    <!-- Top 3 filmes -->
+    <section>
+      <h1>Top 3</h1>
+      <div class="row-top">
+        <a href="../pages/modeloFilme.html">
+          <div class="filme" numero="1">
+            <img src="../imgs/movies/build.png" alt="" class="poster"/>
+            <div class="filme-row">
+              <h3>Kamen Rider Agito</h3>
+              <p><i class="fa-regular fa-clock"></i>90min</p>
+            </div>
+          </div>
+        </a>
+        <a href="../pages/modeloFilme.html">
+          <div class="filme" numero="2">
+            <img src="../imgs/movies/geats.png" alt="" class="poster"/>
+            <div class="filme-row">
+              <h3>Kamen Rider geats</h3>
+              <p><i class="fa-regular fa-clock"></i>82min</p>
+            </div>
+          </div>
+        </a>
+        <a href="../pages/modeloFilme.html">
+          <div class="filme" numero="3">
+            <img src="../imgs/movies/zero-one.png" alt="" class="poster"/>
+            <div class="filme-row">
+              <h3>Kamen Rider zero-one</h3>
+              <p><i class="fa-regular fa-clock"></i>94min</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      
+    </section>
+
     <!-- Filmes e Series Recentes-->
     <main>
       <!-- Filmes -->
-      <h1>Filmes em destaque</h1>
+      <h1>Filmes Recentes</h1>
       <div class="row">
 
         <a href="../pages/modeloFilme.html">
-          <div class="filme" numero="1">
+          <div class="filme" >
             <img src="../imgs/movies/agito-film.png" alt="" class="poster"/>
             <div class="filme-row">
               <h3>Kamen Rider Agito</h3>
@@ -99,8 +136,8 @@
         </a>
         
         <a href="../pages/modeloFilme.html">
-          <div class="filme" numero="2">
-            <img src="../imgs/movies/agito-film.png" alt="" class="poster"/>
+          <div class="filme" >
+            <img src="../imgs/movies/build.png" alt="" class="poster"/>
             <div class="filme-row">
               <h3>Kamen Rider Agito</h3>
               <p><i class="fa-regular fa-clock"></i>22min</p>
@@ -109,8 +146,8 @@
         </a>
 
         <a href="../pages/modeloFilme.html">
-          <div class="filme" numero="3">
-            <img src="../imgs/movies/agito-film.png" alt="" class="poster"/>
+          <div class="filme" >
+            <img src="../imgs/movies/geats.png" alt="" class="poster"/>
             <div class="filme-row">
               <h3>Kamen Rider Agito</h3>
               <p><i class="fa-regular fa-clock"></i>22min</p>
@@ -119,8 +156,8 @@
         </a>
 
         <a href="../pages/modeloFilme.html">
-          <div class="filme" numero="4">
-            <img src="../imgs/movies/agito-film.png" alt="" class="poster"/>
+          <div class="filme">
+            <img src="../imgs/movies/ryuki.png" alt="" class="poster"/>
             <div class="filme-row">
               <h3>Kamen Rider Agito</h3>
               <p><i class="fa-regular fa-clock"></i>22min</p>
@@ -134,10 +171,10 @@
 
       <!-- Series-->
 
-      <h1>Series em destaque</h1>
+      <h1>Series Recentes</h1>
       <div class="row">
         <a href="../pages/modeloSerie.html">
-          <div class="filme" numero="1">
+          <div class="filme">
             <img src="../imgs/series/agito-serie.png" alt="" class="poster"/>
             <div class="filme-row">
               <h3>Kamen Rider Agito</h3>
@@ -147,8 +184,8 @@
         </a>
 
         <a href="../pages/modeloSerie.html">
-          <div class="filme" numero="2">
-            <img src="../imgs/series/agito-serie.png" alt="" class="poster"/>
+          <div class="filme">
+            <img src="../imgs/series/build.png" alt="" class="poster"/>
             <div class="filme-row">
               <h3>Kamen Rider Agito</h3>
               <p><i class="fa-regular fa-clock"></i>22min</p>
@@ -157,8 +194,8 @@
         </a>
 
         <a href="../pages/modeloSerie.html">
-          <div class="filme" numero="3">
-            <img src="../imgs/series/agito-serie.png" alt="" class="poster"/>
+          <div class="filme">
+            <img src="../imgs/series/geats.png" alt="" class="poster"/>
             <div class="filme-row">
               <h3>Kamen Rider Agito</h3>
               <p><i class="fa-regular fa-clock"></i>22min</p>
@@ -167,8 +204,8 @@
         </a>
 
         <a href="../pages/modeloSerie.html">
-          <div class="filme" numero="4">
-            <img src="../imgs/series/agito-serie.png" alt="" class="poster"/>
+          <div class="filme">
+            <img src="../imgs/series/ryuki.png" alt="" class="poster"/>
             <div class="filme-row">
               <h3>Kamen Rider Agito</h3>
               <p><i class="fa-regular fa-clock"></i>22min</p>
