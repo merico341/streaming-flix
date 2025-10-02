@@ -1,7 +1,7 @@
 var visibleTrailer = -1;
 
 function spawnTrailer() {
-    var trailer = document.getElementById("trailer");
+    var trailer = document.getElementById("nav");
     visibleTrailer *= -1;
 
     if (visibleTrailer == 1) {
