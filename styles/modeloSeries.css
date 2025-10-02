@@ -1,0 +1,163 @@
+/* nav */
+
+nav {
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    background-color: #070707;  
+    display: flex;
+    justify-content: space-between;
+    height: 3rem;
+    transition: opacity .3s ease-in-out;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    margin-right: 10px;
+    padding: 0;
+    gap: 15px;
+}
+
+nav ul li {
+    align-content: center;
+}
+
+nav ul li a {
+    color: #722fc4;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border-radius: 50px;
+}   
+
+.link-hover:hover{
+    background: #232323;
+}
+
+#logo {
+    max-width: 4rem;
+    margin-left: 10px;  
+    padding: 8px;
+}
+
+#logo img {
+    max-width: 4rem;
+}
+#logo img:hover {
+    transition: transform 350ms ease;
+    transform: scale(1.1);
+}
+
+#nav-form {
+    padding: 0.3rem;
+    border: #722fc4 solid 2px;
+    border-radius: 5px;
+    background: #fff;
+}
+
+#buscar {
+    font-size: 1rem;
+    border: none;
+    outline: none;
+}
+
+/* filme modelo */
+
+main {
+    margin: 4rem 3rem;
+    background-color: #232323;
+    padding: 3rem 1rem;
+    border: 2px solid #722fc4;
+}
+
+.content {
+    display: flex;
+}
+
+.poster {
+    max-width: 24rem;
+    margin: 0rem 2rem 0rem 4rem;
+    border-radius: 8px;
+}
+
+.info {
+    display: flex;
+    gap: 16px;
+    margin: 5px 0px;
+    font-weight: 600;
+}
+.info-movie {
+    margin: 7px 0px;
+    font-weight: 600;
+}
+
+#type {
+    padding: 10px;
+    background-color: #303030;
+    width: max-content;
+    margin: 1rem 0;
+    border-radius: 4rem;
+}
+
+#description {
+    text-align: justify;
+    width: 40vw;
+}
+
+.actions {  
+    margin-top: 2rem;
+}
+
+.action-icon {
+    margin: 0rem .5rem;
+    color: #fff;
+    border-radius: 50%;
+    padding: 15px;
+    background-color: #303030;
+}
+
+#link {
+    margin-left: 0.75rem;
+    color: #fff;
+    padding: 11px;
+    background-color: #003C64;
+    border: 2px solid #017A5D;
+    border-radius: 6px;
+}
+
+.comentary {
+    margin: 2rem 2rem 0rem 4rem;
+    padding: 15px;  
+    background-color: #161616;
+    min-height: 40vh;
+    max-width: 65vw;
+    border-radius: 16px;
+}
+
+#entrar {
+    padding: 1rem 0;
+    color: #ff0000;
+}
+
+#comentario {
+    border: none;
+    border-radius: 4px;
+    width: 55vw ;
+    padding: .5rem 0 10vh 0;
+    text-align: left;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+#submit {
+    margin: 2rem ;
+    padding: 10px;
+    background-color: #722fc4;
+    width: max-content;
+    border-radius: 4px;
+}
